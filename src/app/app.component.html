@@ -1,2 +1,4 @@
 <div>hello</div>
-<input type="text" [value]="name" />
+<input type="text" [disabled]="disabledBox" [value]="name" />
+<!-- now lets change some things -->
+<button (click)="enableIt()">enable this</button>

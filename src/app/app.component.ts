@@ -8,6 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   name = 'sandeep'
+  disabledBox = true;
+  //make a funtion to make this working
+  enableIt(){
+    this.disabledBox = false;
+  }
+
  }
 
 
